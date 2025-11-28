@@ -1,28 +1,3 @@
-"""Statistical moments analysis module for signal processing.
-
-This module provides tools for computing various statistical moments from
-multivariate signal data. Statistical moments characterize the shape and
-properties of probability distributions and are fundamental in signal analysis.
-
-The available statistical moments include:
-1. Mean - Central tendency of the data
-2. Standard Deviation - Dispersion around the mean
-3. Skewness - Asymmetry of the distribution
-4. Kurtosis - Tailedness of the distribution
-
-Typical use cases include:
-1. Signal characterization and feature extraction
-2. Quality assessment of sensor data
-3. Motion pattern analysis in movement data
-4. Anomaly detection in time series data
-5. Distribution analysis in multivariate signals
-
-References
-----------
-1. Pearson, K. (1895). Contributions to the Mathematical Theory of Evolution.
-2. Fisher, R. A. (1925). Statistical Methods for Research Workers.
-"""
-
 import numpy as np
 from scipy import stats
 from pyeyesweb.data_models.sliding_window import SlidingWindow
